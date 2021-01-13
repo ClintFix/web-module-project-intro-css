@@ -47,12 +47,13 @@ table {
 	border-spacing: 0;
 }
 /*Google Fonts Import*/
-@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');*/
 
 html {
     font-size:62.5%;
     font-family: 'Roboto Mono', monospace;
+    box-sizing: border-box;
 }
 
 nav {
@@ -71,7 +72,7 @@ nav a {
     text-decoration: none;
     padding: 10px;
     border-radius: 10px;
-    line-height: 1.25;
+    line-height: 1.1;
     letter-spacing: 1px;
 }
 
@@ -86,4 +87,32 @@ nav a {
 #getInvolved {
     background-color: #FFCD69;
 }
-/*font-family:'Chelsea Market', cursive;*/
+
+.hero {
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.headerImg {
+    margin-right: 10px;
+}
+.headerImg img {
+    height: 150px;
+    border-radius: 50%;
+}
+
+.heroText {
+    flex-grow: 3;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.heroText h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 3.25rem;
+}
+
