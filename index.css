@@ -57,15 +57,17 @@ html {
     box-sizing: border-box;
 }
 
-nav {
+header {
+    margin-top: 20px;
+}
+.navigation {
     display: flex;
     width: 100%;
     justify-content: space-evenly;
     height: 100px;
-    margin-top: 20px;
 }
 
-nav a {
+.navigation a {
     height: 20px;
     width: 80px;
     color: white;
@@ -73,19 +75,19 @@ nav a {
     text-decoration: none;
     padding: 10px;
     border-radius: 10px;
-    line-height: 1.1;
+    line-height: 1;
     letter-spacing: 1px;
 }
 
-#plan {
+.plan {
     background-color: #FF764E;
 }
 
-#learn {
+.learn {
     background-color: #5ED3EB;
 }
 
-#getInvolved {
+.getInvolved {
     background-color: #FFCD69;
 }
 
@@ -159,4 +161,26 @@ nav a {
 
 .boldText {
     font-weight:500;
+}
+
+footer {
+    background-color: #F9E7DC;
+    height:150px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer img {
+    width: 99%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 15%;
+    margin: 0 auto;
+}
+
+footer div {
+    width: 100%;
+    background-color: #F9E7DC;
+    padding-top: 20px;
+    margin: -2px;
 }
