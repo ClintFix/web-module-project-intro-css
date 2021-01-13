@@ -116,3 +116,21 @@ nav a {
     font-size: 3.25rem;
 }
 
+.heroDescription {
+    margin: auto;
+    max-width: 75%;
+    margin-top: 15px;
+    line-height: 1.1;
+    color: rgb(70, 70, 70);
+}
+
+.sectionHistory {
+    margin: 20px;
+    background-color: #DDB9A3;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    line-height: 1.1;
+    letter-spacing: 1px;
+    font-weight: 300;
+    text-align: center;
+}
